@@ -37,15 +37,6 @@
 		3998D3981503CB2F00F0D83A /* StartOverButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D38F1503CB2F00F0D83A /* StartOverButton@2x.png */; };
 		3998D3991503CB2F00F0D83A /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3901503CB2F00F0D83A /* StartOverIcon@2x.png */; };
 		3998D39B1503CD0E00F0D83A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998D39A1503CD0E00F0D83A /* QuartzCore.framework */; };
-		3998D3A41503CD9A00F0D83A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D39D1503CD9A00F0D83A /* Icon-72.png */; };
-		3998D3A51503CD9A00F0D83A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D39E1503CD9A00F0D83A /* Icon-Small-50.png */; };
-		3998D3A61503CD9A00F0D83A /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D39F1503CD9A00F0D83A /* Icon-Small.png */; };
-		3998D3A71503CD9A00F0D83A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3A01503CD9A00F0D83A /* Icon-Small@2x.png */; };
-		3998D3A81503CD9A00F0D83A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3A11503CD9A00F0D83A /* Icon.png */; };
-		3998D3A91503CD9A00F0D83A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3A21503CD9A00F0D83A /* Icon@2x.png */; };
-		3998D3AA1503CD9A00F0D83A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3A31503CD9A00F0D83A /* iTunesArtwork */; };
-		3998D3AE1503CFCD00F0D83A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3AC1503CFCD00F0D83A /* Default.png */; };
-		3998D3AF1503CFCD00F0D83A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3AD1503CFCD00F0D83A /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,15 +76,6 @@
 		3998D38F1503CB2F00F0D83A /* StartOverButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartOverButton@2x.png"; sourceTree = "<group>"; };
 		3998D3901503CB2F00F0D83A /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartOverIcon@2x.png"; sourceTree = "<group>"; };
 		3998D39A1503CD0E00F0D83A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		3998D39D1503CD9A00F0D83A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		3998D39E1503CD9A00F0D83A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		3998D39F1503CD9A00F0D83A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		3998D3A01503CD9A00F0D83A /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		3998D3A11503CD9A00F0D83A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		3998D3A21503CD9A00F0D83A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		3998D3A31503CD9A00F0D83A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		3998D3AC1503CFCD00F0D83A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3998D3AD1503CFCD00F0D83A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +96,6 @@
 		3998D341150156EE00F0D83A = {
 			isa = PBXGroup;
 			children = (
-				3998D3AB1503CFCD00F0D83A /* Launch Images */,
-				3998D39C1503CD9A00F0D83A /* Icon */,
 				3998D3721503B4B800F0D83A /* Images */,
 				3998D356150156EE00F0D83A /* BullsEye */,
 				3998D34F150156EE00F0D83A /* Frameworks */,
@@ -203,31 +183,6 @@
 			path = "Retina Images";
 			sourceTree = "<group>";
 		};
-		3998D39C1503CD9A00F0D83A /* Icon */ = {
-			isa = PBXGroup;
-			children = (
-				3998D39D1503CD9A00F0D83A /* Icon-72.png */,
-				3998D39E1503CD9A00F0D83A /* Icon-Small-50.png */,
-				3998D39F1503CD9A00F0D83A /* Icon-Small.png */,
-				3998D3A01503CD9A00F0D83A /* Icon-Small@2x.png */,
-				3998D3A11503CD9A00F0D83A /* Icon.png */,
-				3998D3A21503CD9A00F0D83A /* Icon@2x.png */,
-				3998D3A31503CD9A00F0D83A /* iTunesArtwork */,
-			);
-			name = Icon;
-			path = "../../../Users/rajkandathi/Desktop/The iOS Apprentice/Chapter 1 - Getting Started/Resources/Icon";
-			sourceTree = "<group>";
-		};
-		3998D3AB1503CFCD00F0D83A /* Launch Images */ = {
-			isa = PBXGroup;
-			children = (
-				3998D3AC1503CFCD00F0D83A /* Default.png */,
-				3998D3AD1503CFCD00F0D83A /* Default@2x.png */,
-			);
-			name = "Launch Images";
-			path = "../../../Users/rajkandathi/Desktop/The iOS Apprentice/Chapter 1 - Getting Started/Resources/Launch Images";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,15 +256,6 @@
 				3998D3971503CB2F00F0D83A /* SliderTrackRight@2x.png in Resources */,
 				3998D3981503CB2F00F0D83A /* StartOverButton@2x.png in Resources */,
 				3998D3991503CB2F00F0D83A /* StartOverIcon@2x.png in Resources */,
-				3998D3A41503CD9A00F0D83A /* Icon-72.png in Resources */,
-				3998D3A51503CD9A00F0D83A /* Icon-Small-50.png in Resources */,
-				3998D3A61503CD9A00F0D83A /* Icon-Small.png in Resources */,
-				3998D3A71503CD9A00F0D83A /* Icon-Small@2x.png in Resources */,
-				3998D3A81503CD9A00F0D83A /* Icon.png in Resources */,
-				3998D3A91503CD9A00F0D83A /* Icon@2x.png in Resources */,
-				3998D3AA1503CD9A00F0D83A /* iTunesArtwork in Resources */,
-				3998D3AE1503CFCD00F0D83A /* Default.png in Resources */,
-				3998D3AF1503CFCD00F0D83A /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +381,7 @@
 				3998D36C150156EE00F0D83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
