@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface AboutViewController : UIViewController
+// /Comment to test git
 @property(nonatomic, strong) IBOutlet UIWebView *webView;
 
 - (IBAction)closeInfo;
