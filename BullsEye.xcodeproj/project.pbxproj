@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3942A1C8158FFFEB00A7EB59 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3942A1C6158FFFEB00A7EB59 /* AboutViewController.m */; };
+		3942A1C9158FFFEB00A7EB59 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3942A1C7158FFFEB00A7EB59 /* AboutViewController.xib */; };
 		3998D351150156EE00F0D83A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998D350150156EE00F0D83A /* UIKit.framework */; };
 		3998D353150156EE00F0D83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998D352150156EE00F0D83A /* Foundation.framework */; };
 		3998D355150156EE00F0D83A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998D354150156EE00F0D83A /* CoreGraphics.framework */; };
@@ -15,8 +17,6 @@
 		3998D361150156EE00F0D83A /* BullsEyeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998D360150156EE00F0D83A /* BullsEyeAppDelegate.m */; };
 		3998D364150156EE00F0D83A /* BullsEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998D363150156EE00F0D83A /* BullsEyeViewController.m */; };
 		3998D367150156EE00F0D83A /* BullsEyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3998D365150156EE00F0D83A /* BullsEyeViewController.xib */; };
-		3998D3701502B4B000F0D83A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3998D36E1502B4B000F0D83A /* AboutViewController.m */; };
-		3998D3711502B4B000F0D83A /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3998D36F1502B4B000F0D83A /* AboutViewController.xib */; };
 		3998D37C1503B4B800F0D83A /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3731503B4B800F0D83A /* Background.png */; };
 		3998D37D1503B4B800F0D83A /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3741503B4B800F0D83A /* Button-Highlighted.png */; };
 		3998D37E1503B4B800F0D83A /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3998D3751503B4B800F0D83A /* Button-Normal.png */; };
@@ -40,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3942A1C5158FFFEB00A7EB59 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		3942A1C6158FFFEB00A7EB59 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		3942A1C7158FFFEB00A7EB59 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		3998D34C150156EE00F0D83A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3998D350150156EE00F0D83A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3998D352150156EE00F0D83A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,9 +56,6 @@
 		3998D362150156EE00F0D83A /* BullsEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeViewController.h; sourceTree = "<group>"; };
 		3998D363150156EE00F0D83A /* BullsEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeViewController.m; sourceTree = "<group>"; };
 		3998D366150156EE00F0D83A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullsEyeViewController.xib; sourceTree = "<group>"; };
-		3998D36D1502B4B000F0D83A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
-		3998D36E1502B4B000F0D83A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
-		3998D36F1502B4B000F0D83A /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutViewController.xib; path = ../AboutViewController.xib; sourceTree = "<group>"; };
 		3998D3731503B4B800F0D83A /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		3998D3741503B4B800F0D83A /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
 		3998D3751503B4B800F0D83A /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
@@ -130,9 +130,9 @@
 				3998D362150156EE00F0D83A /* BullsEyeViewController.h */,
 				3998D363150156EE00F0D83A /* BullsEyeViewController.m */,
 				3998D365150156EE00F0D83A /* BullsEyeViewController.xib */,
-				3998D36D1502B4B000F0D83A /* AboutViewController.h */,
-				3998D36E1502B4B000F0D83A /* AboutViewController.m */,
-				3998D36F1502B4B000F0D83A /* AboutViewController.xib */,
+				3942A1C5158FFFEB00A7EB59 /* AboutViewController.h */,
+				3942A1C6158FFFEB00A7EB59 /* AboutViewController.m */,
+				3942A1C7158FFFEB00A7EB59 /* AboutViewController.xib */,
 				3998D3851503C8AF00F0D83A /* BullsEye.html */,
 				3998D3871503CB2F00F0D83A /* Retina Images */,
 				3998D357150156EE00F0D83A /* Supporting Files */,
@@ -236,7 +236,6 @@
 			files = (
 				3998D35B150156EE00F0D83A /* InfoPlist.strings in Resources */,
 				3998D367150156EE00F0D83A /* BullsEyeViewController.xib in Resources */,
-				3998D3711502B4B000F0D83A /* AboutViewController.xib in Resources */,
 				3998D37C1503B4B800F0D83A /* Background.png in Resources */,
 				3998D37D1503B4B800F0D83A /* Button-Highlighted.png in Resources */,
 				3998D37E1503B4B800F0D83A /* Button-Normal.png in Resources */,
@@ -256,6 +255,7 @@
 				3998D3971503CB2F00F0D83A /* SliderTrackRight@2x.png in Resources */,
 				3998D3981503CB2F00F0D83A /* StartOverButton@2x.png in Resources */,
 				3998D3991503CB2F00F0D83A /* StartOverIcon@2x.png in Resources */,
+				3942A1C9158FFFEB00A7EB59 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 				3998D35D150156EE00F0D83A /* main.m in Sources */,
 				3998D361150156EE00F0D83A /* BullsEyeAppDelegate.m in Sources */,
 				3998D364150156EE00F0D83A /* BullsEyeViewController.m in Sources */,
-				3998D3701502B4B000F0D83A /* AboutViewController.m in Sources */,
+				3942A1C8158FFFEB00A7EB59 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
